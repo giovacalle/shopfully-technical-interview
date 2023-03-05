@@ -1,0 +1,52 @@
+:root {
+  --violet-custom: #6200ee;
+  --violet-custom-light: #f0ebfc;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+main {
+  padding: 15px;
+}
+
+.navbar-bg-custom {
+  padding: 0 15px;
+  background-color: var(--violet-custom);
+}
+
+.favorite {
+  color: gray;
+  cursor: pointer;
+}
+.favorite:hover {
+  background-color: var(--violet-custom-light) !important;
+  color: var(--violet-custom);
+}
+
+.items-grid {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.violet-custom {
+  color: var(--violet-custom);
+}
+
+.fs-7 {
+  font-size: 0.85rem !important;
+}
+.fs-8 {
+  font-size: 0.75rem !important;
+}
+
