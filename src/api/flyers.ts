@@ -1,7 +1,7 @@
 import { API_URL } from "@/env";
 import { IFlyerGetResponse } from "@/types/flyers";
 
-const API_LIMIT_GET = 10;
+const API_LIMIT_GET = 100;
 
 export const getFlyers = async ({
   pageParam
